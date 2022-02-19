@@ -73,56 +73,8 @@ const Header = ({
   );
 
   return (
-    <header
-      {...props}
-      className={classes}
-    >
+    <header>
         <div> </div>
-//       <div className="container">
-//         <div className={
-//           classNames(
-//             'site-header-inner',
-//             bottomDivider && 'has-bottom-divider'
-//           )}>
-//           {!hideNav &&
-//             <>
-//               <button
-//                 ref={hamburger}
-//                 className="header-nav-toggle"
-//                 onClick={isActive ? closeMenu : openMenu}
-//               >
-//                 <span className="screen-reader">Menu</span>
-//                 <span className="hamburger">
-//                   <span className="hamburger-inner"></span>
-//                 </span>
-//               </button>
-//               <nav
-//                 ref={nav}
-//                 className={
-//                   classNames(
-//                     'header-nav',
-//                     isActive && 'is-active'
-//                   )}>
-//                 <div className="header-nav-inner">
-//                   <ul className={
-//                     classNames(
-//                       'list-reset text-xs',
-//                       navPosition && `header-nav-${navPosition}`
-//                     )}>
-//                     <li>
-//                       Download Bio data
-//                     </li>
-//                   </ul>
-//                   {!hideSignin &&
-//                     <ul
-//                       className="list-reset header-nav-right"
-//                     >
-//                     </ul>}
-//                 </div>
-//               </nav>
-//             </>}
-//         </div>
-//       </div>
     </header>
   );
 }
